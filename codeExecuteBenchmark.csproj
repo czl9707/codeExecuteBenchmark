@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyTitle>Zain.CodeExecuteBenchmark</AssemblyTitle>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <OutputType>exe</OutputType>
+    <PackageId>Zain.CodeExecuteBenchmark</PackageId>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <Features>InterceptorsPreview</Features>
+    <InterceptorsPreviewNamespaces>Zain.CodeExecuteBenchmark</InterceptorsPreviewNamespaces>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.*" />
+  </ItemGroup>
+</Project>
